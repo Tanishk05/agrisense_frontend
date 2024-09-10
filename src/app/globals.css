@@ -31,3 +31,28 @@ body {
     text-wrap: balance;
   }
 }
+
+.texico{ 
+  -webkit-text-stroke: 2px grey; 
+  color: transparent; 
+  font-weight: 800;
+}
+
+.small_piece{ 
+ animation-name: moving; 
+ animation-duration: 3s;
+ animation-fill-mode: forwards; 
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+}
+@keyframes moving {
+  0%{ 
+      left: 0%;
+  } 
+  50%{ 
+      left: 78%;
+  }
+  100%{ 
+      left: 0%;
+  }
+}

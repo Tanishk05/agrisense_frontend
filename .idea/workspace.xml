@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc4abf3b-62e9-4271-a383-af99eac689ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthBtns/GithubBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthBtns/GithubBtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthBtns/GoogleBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthBtns/GoogleBtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthBtns/LogoutBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthBtns/LogoutBtn.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2kkjWDtolVW7FxwH1OP5yCmBdzN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,13 +32,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "tanishk",
     "last_opened_file_path": "/home/tanishk/projects/websites/agrisense",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.tools",
     "ts.external.directory.path": "/home/tanishk/projects/websites/agrisense/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -53,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723834497745</updated>
       <workItem from="1723834498827" duration="360000" />
+      <workItem from="1723841584692" duration="155000" />
     </task>
     <servers />
   </component>
