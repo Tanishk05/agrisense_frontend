@@ -1,0 +1,19 @@
+.scrollbar-custom {
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #8b5cf6 #2d2d2d; /* thumb color and track color for Firefox */
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #8b5cf6; /* Color of the scrollbar thumb */
+    border-radius: 4px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background-color: #2d2d2d; /* Color of the scrollbar track */
+    border-radius: 4px;
+  }

@@ -1,6 +1,4 @@
 import { signIn } from "@/auth";
-import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function AuthBtn() {
   return (
@@ -11,10 +9,7 @@ export default function AuthBtn() {
       }}
     >
       <button type="submit">
-        <FontAwesomeIcon
-          icon={faRightToBracket}
-          className="text-orange-500 cursor-pointer w-6"
-        />
+        <p className="text-black font-bold">Login</p>
       </button>
     </form>
   );

@@ -1,5 +1,3 @@
-import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { signOut } from "@/auth";
 
 export default function LogoutBtn() {
@@ -7,14 +5,11 @@ export default function LogoutBtn() {
     <form
       action={async () => {
         "use server";
-        await signOut();
+        await signOut({ redirectTo: "/" });
       }}
     >
-      <button type="submit">
-        <FontAwesomeIcon
-          icon={faRightFromBracket}
-          className="text-orange-500 cursor-pointer w-6"
-        />
+      <button type="submit" className="w-full bg-lime-400 text-black py-4 rounded-lg text-lg font-bold">
+        Logout
       </button>
     </form>
   );

@@ -3,31 +3,18 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "imgs.search.brave.com",
-        port: "",
-        pathname: "/**",
+        protocol: 'https',  // Allow 'https' protocol
+        hostname: '**',     // Allow any hostname (domain)
+        pathname: '**',     // Allow any path
       },
       {
-        protocol: "https",
-        hostname: "static.vecteezy.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn3d.iconscout.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "5.imimg.com",
-        port: "",
-        pathname: "/**",
+        protocol: 'http',   // Optionally, allow 'http' protocol if needed
+        hostname: '**',     // Allow any hostname (domain)
+        pathname: '**',     // Allow any path
       }
     ],
   },
 };
 
 export default nextConfig;
+

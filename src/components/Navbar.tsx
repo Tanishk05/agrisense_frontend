@@ -2,6 +2,7 @@ import React from "react";
 import { auth } from "@/auth";
 import AuthBtn from "./AuthBtns/AuthBtn";
 import Image from "next/image";
+import ProfileBtn from "./UtilityBtns/ProfileBtn"
 
 const Navbar = async () => {
   const session = await auth();
@@ -20,13 +21,7 @@ const Navbar = async () => {
           />
         </div>
         {session ? (
-          <Image
-            src="https://static.vecteezy.com/system/resources/previews/016/774/588/original/3d-user-icon-on-transparent-background-free-png.png"
-            alt="Profile"
-            className="h-8 w-8 rounded-full bg-green-300"
-            height={500}
-            width={500}
-          />
+          <ProfileBtn />
         ) : (
           <AuthBtn />
         )}
