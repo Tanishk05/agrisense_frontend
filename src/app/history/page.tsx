@@ -27,8 +27,8 @@ const Page = () => {
   return (
     <div className="p-4">
       {records.length > 0 ? (
-        records.map((record) => (
-          <div key={record._id} className="flex flex-col items-center my-8">
+        records.map((record, key) => (
+          <div key={key} className="flex flex-col items-center my-8">
             <Image src={record.url} alt="image" height={200} width={200}/>
             <p>Disease : {record.disease}</p>
             <p className="p-4">Prevent: {record.prevent}</p>
