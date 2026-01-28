@@ -37,14 +37,14 @@ const page = () => {
         </form>
 
         <p className="text-white mt-6 text-center">
-          Don't have an account?{" "}
+          Don&apos;t have an account?{" "}
           <a href="/register" className="text-lime-300">
             Click to Register
           </a>
         </p>
       </div>
-      {Object.values(providerMap).map((provider) => (
-        <form
+      {Object.values(providerMap).map((provider, index) => (
+        <form key={index}
           action={async () => {
             "use server"
             try {
