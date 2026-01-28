@@ -141,7 +141,7 @@ const Camera = () => {
         </div>
         {clicked && (
           <>
-            <p className="text-center text-xl">Hold on, we're analyzing...</p>
+            <p className="text-center text-xl">Hold on, we&apos;re analyzing...</p>
             <Loader />
           </>
         )}
