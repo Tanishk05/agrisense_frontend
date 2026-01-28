@@ -5,9 +5,18 @@ import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 
+type HistoryRecord = {
+  url: string
+  disease: string
+  prevent: string
+  supplement: string
+  supplementImage: string
+  supplementLink: string
+}
+
 const Page = () => {
   const { data: session } = useSession();
-  const [records, setRecords] = useState([]);
+  const [records, setRecords] = useState<HistoryRecord[]>([]);
 
   useEffect(() => {
     const getHistory = async () => {
